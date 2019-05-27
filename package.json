@@ -1,0 +1,33 @@
+{
+  "name": "promarkdown",
+  "version": "1.0.0",
+  "description": "Fast transcoder to turn markdown into HTML, React or Angular.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnceDot/ProMarkdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "markdown-parser",
+    "bbcode",
+    "bbcode-parser",
+    "transpiler",
+    "javascript"
+  ],
+  "author": "Dot.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnceDot/ProMarkdown/issues"
+  },
+  "homepage": "https://github.com/OnceDot/ProMarkdown#readme",
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "react": "^16.8.6"
+  }
+}
