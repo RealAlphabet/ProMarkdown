@@ -4,7 +4,7 @@
   "description": "Fast transcoder to turn markdown into HTML, React or Angular.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,11 @@
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
-    "react": "^16.8.6"
+    "@babel/core": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6",
+    "rollup": "^1.12.4",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-terser": "^5.0.0"
   }
 }
